@@ -11,7 +11,6 @@ class Spotly extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Spotly',
       routerConfig: appRouter,
-      theme: ThemeData(useMaterial3: true, primarySwatch: Colors.blue),
     );
   }
 }

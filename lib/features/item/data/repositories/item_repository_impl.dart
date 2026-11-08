@@ -14,6 +14,7 @@ class ItemRepositoryImpl implements ItemRepository {
     final itemModel = ItemModel(
       id: item.id,
       name: item.name,
+      location: item.location,
       description: item.description,
       imagePath: item.imagePath,
       createdAt: item.createdAt,

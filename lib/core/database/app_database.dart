@@ -34,6 +34,7 @@ class AppDatabase {
       CREATE TABLE items (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         name TEXT NOT NULL,
+        location TEXT NOT NULL,
         description TEXT,
         imagePath TEXT,
         created_at TEXT NOT NULL,
